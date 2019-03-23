@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header id="header">
+    <img id="header-img" src="icons8-hammer-64.png" alt="Company Logo">
+    <span id="logo-text">Acme Hammers</span>
+    <nav id="nav-bar">
+        <ul>
+            <li><a class="nav-link" href="#intro-jump">Features</a></li>
+            <li><a class="nav-link" href="#video-jump">How it Works</a></li>
+            <li><a class="nav-link" href="#purchase-jump">Pricing</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="top-spacer"></div>
+    <h1>Nailed It!</h1>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input id="email" type="email" name="email" placeholder="Enter your email">
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    <div id="intro-jump" class="top-spacer"></div>
+    <section id="intro">
+        <ul>
+            <li>Every one of our handcrafted hammers comes fully backed by a lifetime replacement guarantee.</li>
+            <li>We offer free standard shipping on any purchase and free overnight shipping for orders over $100.</li>
+            <li>Each hammer is carefully crafted to match your highest standard of quality.</li>
+        </ul>
+    </section>
+    <div id="video-jump" class="top-spacer"></div>
+    <iframe id="video" title="how to choose and use a hammer"
+            src="https://www.youtube.com/embed/3QBYNh-JVxg" allowfullscreen
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
+    </iframe>
+    <div id="purchase-jump" class="top-spacer"></div>
+    <section id="purchase">
+        <article>
+            <h2>Framer</h2>
+            <ul>
+                <li>The classic hammer</li>
+                <li>Metal or wood handle</li>
+                <li>Custom grip options</li>
+            </ul>
+            <button>$50</button>
+        </article>
+        <article>
+            <h2>Lefty</h2>
+            <ul>
+                <li>Acme Hammer exclusive</li>
+                <li>Contoured left grip</li>
+                <li>Balanced left-arc swing</li>
+            </ul>
+            <button>$100</button>
+        </article>
+        <article>
+            <h2>Golden</h2>
+            <ul>
+                <li>Made with 18 karat gold</li>
+                <li>Alloyed with tungsten</li>
+                <li>Never tarnishes or rusts</li>
+            </ul>
+            <button>$100,000</button>
+        </article>
+    </section>
+</main>
+<footer>
+    <p>&copy;2019 by Acme Hammers</p>
+</footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

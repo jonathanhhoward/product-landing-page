@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+html {
+    background-color: darkgray;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.top-spacer {
+    height: 52px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px 10px 60px;
+    background-color: darkgray;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+}
+
+#header-img {
+    vertical-align: top;
+    width: 2em;
+    height: 2em;
+}
+
+#logo-text {
+    font-family: 'Anton', sans-serif;
+    line-height: 2;
+}
+
+#nav-bar {
+    float: right;
+    line-height: 2;
+}
+
+#nav-bar ul {
+    display: inline;
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-left: 2em;
+}
+
+#nav-bar a {
+    text-decoration: none;
+}
+
+#nav-bar a:link, nav a:visited {
+    color: black;
+}
+
+#nav-bar a:hover {
+    color: blue;
+}
+
+#nav-bar a:active {
+    color: red;
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input, button {
+    box-sizing: content-box;
+    height: 2em;
+    font-size: 1em;
+}
+
+#email {
+    padding: 0 5px;
+    width: 25ch;
+}
+
+section {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+#intro ul {
+    margin: 0;
+    padding-left: 2em;
+    list-style-type: none;
+}
+
+#intro li {
+    margin: 2em 0;
+    padding-left: 2em;
+    background-image: url("icons8-hammer-64.png");
+    background-position: 0 .25em;
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    line-height: 2;
+}
+
+#video {
+    border: none;
+    max-width: 1024px;
+    width: 100vw;
+    max-height: 576px;
+    height: 56.25vw;
+}
+
+#purchase {
+    display: flex;
+}
+
+#purchase article {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+#purchase ul {
+    padding: 0;
+}
+
+#purchase li {
+    list-style: none;
+}
+
+footer {
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    .top-spacer {
+        height: 84px;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #nav-bar {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav-bar ul {
+        margin: 0;
+    }
+
+    #nav-bar li:first-child {
+        margin: 0;
+    }
+
+    #purchase {
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
