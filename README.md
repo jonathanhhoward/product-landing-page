@@ -1,3 +1,3 @@
 # product-landing-page
 
-A project for freeCodeCamp.org
+A project for freeCodeCamp.
